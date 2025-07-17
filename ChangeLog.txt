@@ -1,0 +1,7 @@
+
+
+#######################################
+        2025-07-17 -- GGriffith 
+#######################################
+
+Initial Commit of the Microsoft Access Add-In Helper tool.

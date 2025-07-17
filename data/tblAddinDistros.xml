@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:schema>
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="tblAddinDistros" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="tblAddinDistros">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="fID" index-key="fID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="fID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:tableProperty name="Orientation" type="2" value="0"/>
+<od:tableProperty name="OrderByOn" type="1" value="0"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADefi74NjdhRIAZGiq5Hps1AAAAAP58DCy8Y+ZAAAAAAAAAAAB0AGIA
+bABBAGQAZABpAG4ARABpAHMAdAByAG8AcwAxAAAAAAAAADAt6Pf4OLtHgh3d0T9/
+MVIHAAAA3n4u+DY3YUSAGRoquR6bNWYASQBEAAAAAAAAAG3WMiL2mkNBls5/viYs
+LTYHAAAA3n4u+DY3YUSAGRoquR6bNWYAcwBBAGQAZABpAG4AVABpAHQAbABlAAAA
+AAAAAJX+TC7S6spGpEqRj8nNHjsAAAAAKH9t2Rpf5kAAAAAAAAAAAHQAYgBsAEEA
+ZABkAGkAbgBUAHkAcABlAHMAAAAAAAAAEAmtEL1Ti0WR50xeOjJW4QcAAACV/kwu
+0urKRqRKkY/JzR47ZgBJAEQAAAAAAAAAXRYM8scsu0q32niI93KeuAcAAACV/kwu
+0urKRqRKkY/JzR47ZgBzAEEAZABkAGkAbgBUAHkAcABlAAAAAAAAABUYgkJxCxxK
+sG+mR4VjUdIHAAAA3n4u+DY3YUSAGRoquR6bNWYAbABBAGQAZABpAG4AVAB5AHAA
+ZQBJAEQAAAAAAAAAvogKK9OW20CYWxokTNop0QcAAADefi74NjdhRIAZGiq5Hps1
+ZgBtAEEAZABkAGkAbgBEAGUAcwBjAAAAAAAAAE7fquLzKWlMngVhDWFpW1UHAAAA
+3n4u+DY3YUSAGRoquR6bNWYAbQBBAGQAZABpAG4ATgBvAHQAZQBzAAAAAAAAAFrc
+cV4XTApDnsC0oJPgj2oHAAAA3n4u+DY3YUSAGRoquR6bNWYAbQBBAGQAZABpAG4A
+TABpAG4AawAAAAAAAAB+JqW5D0UpTZfO0yfOV0OpBwAAAN5+Lvg2N2FEgBkaKrke
+mzVmAHMAQQBkAGQAaQBuAEMAcgBlAGEAdABvAHIAAAAAAAAAT2M2JBQrDUCYE4cx
+LkaeIQcAAADefi74NjdhRIAZGiq5Hps1ZgBtAFcAZQBiAHMAaQB0AGUAAAAAAAAA
+yk8/2YbsmUug/O6JCvPJzQcAAADefi74NjdhRIAZGiq5Hps1ZgBkAHQARABhAHQA
+ZQBDAHIAZQBhAHQAZQBkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAA
+AAAAAAAAAAAAAAAA
+"/>
+<od:tableProperty name="DefaultView" type="2" value="2"/>
+<od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
+<od:tableProperty name="TotalsRow" type="1" value="0"/>
+<od:tableProperty name="FilterOnLoad" type="1" value="0"/>
+<od:tableProperty name="OrderByOnLoad" type="1" value="1"/>
+<od:tableProperty name="HideNewField" type="1" value="0"/>
+<od:tableProperty name="BackTint" type="6" value="100"/>
+<od:tableProperty name="BackShade" type="6" value="100"/>
+<od:tableProperty name="ThemeFontIndex" type="4" value="1"/>
+<od:tableProperty name="AlternateBackThemeColorIndex" type="4" value="1"/>
+<od:tableProperty name="AlternateBackTint" type="6" value="100"/>
+<od:tableProperty name="AlternateBackShade" type="6" value="95"/>
+<od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
+<od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
+<od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="GUID" type="9" value="3n4u+DY3YUSAGRoquR6bNQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="fID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="MC3o9/g4u0eCHd3RP38xUg==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="fsAddinTitle" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="1"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="bdYyIvaaQ0GWzn++JiwtNg==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="100"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="flAddinTypeID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [tblAddinTypes].[fID], [tblAddinTypes].[fsAddinType] FROM tblAddinTypes ORDER BY [fsAddinType]; "/>
+<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+<od:fieldProperty name="ColumnCount" type="3" value="2"/>
+<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;2880"/>
+<od:fieldProperty name="ListRows" type="3" value="16"/>
+<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
+<od:fieldProperty name="LimitToList" type="1" value="1"/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="FRiCQnELHEqwb6ZHhWNR0g==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="fmAddinDesc" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextFormat" type="2" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="vogKK9OW20CYWxokTNop0Q==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="536870910"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="fmAddinNotes" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextFormat" type="2" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="Tt+q4vMpaUyeBWENYWlbVQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="536870910"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="fmAddinLink" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextFormat" type="2" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="WtxxXhdMCkOewLSgk+CPag==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="536870910"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="fsAddinCreator" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="fialuQ9FKU2XztMnzldDqQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="100"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="fmWebsite" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextFormat" type="2" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="T2M2JBQrDUCYE4cxLkaeIQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="536870910"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="fdtDateCreated" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DefaultValue" type="12" value="=Now()"/>
+<od:fieldProperty name="Required" type="1" value="1"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ShowDatePicker" type="3" value="1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="yk8/2YbsmUug/O6JCvPJzQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2025-07-17T06:51:41">
+<tblAddinDistros>
+<fID>1</fID>
+<fsAddinTitle>Access Database Property Editor Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Microsoft Access Access Database Property Editor Add-In was designed to help view and edit MS Access database level properties for any database you have open in MS Access.</fmAddinDesc>
+<fmAddinLink>https://github.com/Access-Abraxas/Access-Database-Property-Editor-Addin</fmAddinLink>
+<fsAddinCreator>Geoffrey L. Griffith</fsAddinCreator>
+<fmWebsite>https://www.ImagineThought.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:09:58</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>2</fID>
+<fsAddinTitle>Data Dictionary Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>This free tool makes it quick and easy to get a Data Dictionary for any table in whatever database you have open. Optionally, export the data dictionary information to a text file so you can look at it somewhere else, like NotePad or Excel. A bonus is being able to filter the tables listed lots of different ways.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_DataDictionary.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:10</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>3</fID>
+<fsAddinTitle>List Hot Keys for active Access Form Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Add-in to use with any Access database, or import VBA module. List hot keys for the active form in Access — get a list of what&apos;s been assigned, and also see what hot keys aren&apos;t used yet. + VBA to bubble sort a passed array and correlate 2 other passed arrays.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_ListHotKeys.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>4</fID>
+<fsAddinTitle>Document SQL Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Documents SQL, RecordSource, and RowSource statements in Queries, Forms, and Reports to Microsoft Word. Test every statement. Mark Bad! statements so you can fix them, or verify they&apos;re okay. Count records when opened successfully. Show the SQL formatted with key words at the beginning of a line and line break + tab before commas. Write resports to Microsoft Word.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_DocumentSql.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>5</fID>
+<fsAddinTitle>SQL Spacer Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Quickly make SQL Statements easier to read by inserting spaces and line breaks. Untangle logic, inspect something that doesn&apos;t work quite right, create documentation, and more.  Install as an Add-In or run on its own.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_SQLSpacer.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>6</fID>
+<fsAddinTitle>Workspace Save and Restore Table Size and Position</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Save and restore the position and size of open tables. This is like Excel&apos;s Save Workspace feature. A little surprise might be that it creates a temporary database and links instead of storing anything in the CurrentDB.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_Workspace.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>7</fID>
+<fsAddinTitle>Color VBA Code Tool</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Quickly insert tags for coloring VBA that is posted on web pages and in forums. Color Comments GREEN and Keywords BLUE for VBA.</fmAddinDesc>
+<fmAddinLink>https://www.msaccessgurus.com/tool/Addin_ColorCode.htm</fmAddinLink>
+<fsAddinCreator>Crystal Long</fsAddinCreator>
+<fmWebsite>https://www.msaccessgurus.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>8</fID>
+<fsAddinTitle>Access/Windows/Office 365 Version Check Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>This Add-In will check whether the information is up to date and, if not, you will be prompted to update it.  Obtaining current version information should take less than 2 seconds depending on the speed of your computer.</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/avc-addin/index.html</fmAddinLink>
+<fsAddinCreator>Colin Riddington</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>9</fID>
+<fsAddinTitle>Available Connections Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The attached add-in can be used to monitor the number of open databases/tables that can be created before these errors appear.  It is based on an old utility originally written by Ben Sacharich in 2008 and has been updated by myself with additional functionality.  The info provided can help developers reduce the number of connections used by database objects.</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/available-connections-addin/index.html</fmAddinLink>
+<fsAddinCreator>Colin Riddington</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>10</fID>
+<fsAddinTitle>JET ShowPlan Manager Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The free JET ShowPlan Manager add-in is designed to help setup the JET ShowPlan feature in Access to assist with optimising queries.</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/jet-showplan-manager-addin/index.html</fmAddinLink>
+<fsAddinCreator>Colin Riddington</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>11</fID>
+<fsAddinTitle>Navigation Pane Helper Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The free Navigation Pane Helper Add-In is designed to make it simpler and more efficient to access the many navigation pane options using as few clicks as possible</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/nav-pane-helper-addin/index.html</fmAddinLink>
+<fsAddinCreator>Colin Riddington</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>12</fID>
+<fsAddinTitle>VBA to SQL and Back Again Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The VBA to SQL And Back Again utility  makes it easy to convert query SQL to a VBA string (or vice versa). Additonal functionality includes creating example code from the VBA string and temp queries to test the SQL / VBA output.</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/sql-to-vba-back-again/index.html</fmAddinLink>
+<fsAddinCreator>Colin Riddington</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>13</fID>
+<fsAddinTitle>Standard Module Object Generation Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Standard Module Object Generation (SMOG) Add-In was developed in order to make as much use as possible of both compile-time error-checking and Intellisense in Access.</fmAddinDesc>
+<fmAddinLink>https://www.isladogs.co.uk/smog/index.html</fmAddinLink>
+<fsAddinCreator>Alan Cossey</fsAddinCreator>
+<fmWebsite>https://www.isladogs.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>14</fID>
+<fsAddinTitle>The Access Dependency Checker Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Access Dependency Checker is a free Microsoft Access Add-In that reveals the dependencies between database objects like tables, queries, macros etc. and helps to maintain and clean up your MS Access databases.</fmAddinDesc>
+<fmAddinLink>http://www.accessdependencychecker.com/index.php?page=download</fmAddinLink>
+<fsAddinCreator>Thomas</fsAddinCreator>
+<fmWebsite>http://www.accessdependencychecker.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>15</fID>
+<fsAddinTitle>Access Shortcut Tool</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Access Shortcut Tool allows developers to create their own shortcut (right-click) menus for use in Access applications.  You can start from scratch and create your own menus, utilizing your own, custom functions, or you can simply copy the built-in menus and removed the controls which you don’t want user to have access to.</fmAddinDesc>
+<fmAddinLink>http://dev-soln.com/access-shortcut-right-click-tool/</fmAddinLink>
+<fsAddinCreator>Dale Fye</fsAddinCreator>
+<fmWebsite>http://dev-soln.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>16</fID>
+<fsAddinTitle>Linked Table Manager</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>This Linked Table Manager is for both Access and SQL Server linked tables, and can be used by all versions of Access starting with 2007. This LTM is an efficient, user-friendly, tool that makes it easy to either refresh links, relink tables, or link new tables from either an Access or SQL Server/Azure backend, all with DSN-less connections.</fmAddinDesc>
+<fmAddinLink>http://dev-soln.com/linked-table-manager/</fmAddinLink>
+<fsAddinCreator>Dale Fye</fsAddinCreator>
+<fmWebsite>http://dev-soln.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>17</fID>
+<fsAddinTitle>Ribbon &amp; Tree Builder</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Ribbon &amp; Tree Builder is a FREE Add-in for Microsoft Access to help developers quickly design elegant navigation for their applications. The Ribbon Builder allows you to generate complex Ribbons by simply editing records in a form; it requires no knowledge of XML.</fmAddinDesc>
+<fmAddinLink>https://accessui.com/Products/RibbonTreeBuilder</fmAddinLink>
+<fsAddinCreator>Kevin Bell</fsAddinCreator>
+<fmWebsite>https://accessui.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>18</fID>
+<fsAddinTitle>Data Source Manager</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>The Data Source Manager is a FREE Add-in for Microsoft Access to help user and developers manage linked tables in Access. The Data Source Manager is a major enhancement over the legacy Linked Table Manager and unlike our original Data Source Manager, there are no ActiveX controls to register.</fmAddinDesc>
+<fmAddinLink>https://accessui.com/Products/DataSourceManager</fmAddinLink>
+<fsAddinCreator>Kevin Bell</fsAddinCreator>
+<fmWebsite>https://accessui.com</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>19</fID>
+<fsAddinTitle>Smart Indenter Add-In</fsAddinTitle>
+<flAddinTypeID>2</flAddinTypeID>
+<fmAddinDesc>The Smart Indenter is a utility to tidy up VBA code by rebuilding the indentation of each line. Most developers naturally indent code within control structures, such as For...Next, If...End If, etc. Many developers also indent all the code within a procedure, to ease identification of line labels, error handling blocks etc.</fmAddinDesc>
+<fmAddinLink>https://www.oaltd.co.uk/Indenter/IndentFrm.htm</fmAddinLink>
+<fsAddinCreator>Stephen Bullen</fsAddinCreator>
+<fmWebsite>https://www.oaltd.co.uk</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+<tblAddinDistros>
+<fID>20</fID>
+<fsAddinTitle>MS Access Version Control Add-In</fsAddinTitle>
+<flAddinTypeID>1</flAddinTypeID>
+<fmAddinDesc>Easily export your Microsoft Access Database objects for use with a version control system like GitHub or GitLab. This Microsoft Access add-in allows you to use a custom ribbon toolbar to export the your database objects and source code to text files from the currently open Microsoft Access Database.</fmAddinDesc>
+<fmAddinLink>https://github.com/joyfullservice/msaccess-vcs-addin/releases</fmAddinLink>
+<fsAddinCreator>Adam Waller</fsAddinCreator>
+<fmWebsite>https://github.com/joyfullservice/msaccess-vcs-addin</fmWebsite>
+<fdtDateCreated>2025-07-15T21:10:24</fdtDateCreated>
+</tblAddinDistros>
+</dataroot>
+</root>

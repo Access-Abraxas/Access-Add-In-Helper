@@ -8,8 +8,7 @@ The Microsoft Access Add-In Helper is a free tool to help create MS Access Add-I
 
 The Access Add-In Helper tool provides all of this functionality 100% for free!  I hope that you enjoy this tool and create many new Add-In applications for Microsoft Access!
 
-
-# ** WARNING - THIS PROJECT IS IN ALPHA TESTING **
+__*** WARNING - THIS PROJECT IS IN ALPHA TESTING ***__
 This software tool is still in **ALPHA TESTING MODE** and may have issues/problems/bugs, may be incomplete, or may not work correctly in all cases.  
 
 __***** Use this tool AT YOUR OWN RISK! *****__

@@ -57,6 +57,10 @@ To use this program:
 ## Project Contributors
 A great big **THANK YOU** to all the people and entities that have helped with this project:
 
-1. [The Access Pacific Users Group](https://accessusergroups.org/pacific/) - For their community help and support of Access and their contributions to testing this tool.
+1. [George Hepworth](https://www.gpcdata.com) - For hosting the Access Pacific Users Group and inspiring this tool.
 
-2. [Geoffrey Griffith](https://geoffreygriffith.com) - For his work to create this 100% free Microsoft Access Add-In builder and tracking tool.
+2. [Crystal Long](https://www.msaccessgurus.com/) - For her contributions to the Access Pacific Users Group and the information she documented about creating Microsoft Access Add-Ins.
+
+3. [The Access Pacific Users Group](https://accessusergroups.org/pacific/) - For their community help and support of Access and their contributions to testing this tool.
+
+4. [Geoffrey Griffith](https://geoffreygriffith.com) - For his work to create this 100% free Microsoft Access Add-In builder and tracking tool.

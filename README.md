@@ -4,7 +4,7 @@ The Microsoft Access Add-In Helper is a free tool to help create MS Access Add-I
 
 1. An ACCDA Builder Tool - The initial idea for this tool was to create a tool to provide a GUI for creating Access Add-Ins from existing Access applications.  The idea is that you first create an Access application that you want to make as an Add-In, get the app working exactly how you want it to work, and then run your Access application through this tool to generate an Access Add-In (.accda) file.  The tool will do everything needed to generate an Access Add-In (.accda) file from the Access application (.accdb) file.
  
-2. An Access Add-In Catalog - The secondary purpose of this tool is to provide a catalog of all the known free Access Add-Ins available on the internet.  It is my hope that people will use this tool to make more Access Add-Ins that they are will to share with the community for free, and that we can list those future Add-Ins in the catalog here.
+2. An Access Add-In Catalog - The secondary purpose of this tool is to provide a catalog of all the known free Access Add-Ins available on the internet.  It is my hope that people will use this tool to make more Access Add-Ins that they will also share with the community for free, and that we can list those (future) Add-Ins in the catalog here.
 
 The Access Add-In Helper tool provides all of this functionality 100% for free!  I hope that you enjoy this tool and create many new Add-In applications for Microsoft Access!
 

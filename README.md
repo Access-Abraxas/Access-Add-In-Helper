@@ -64,3 +64,14 @@ A great big **THANK YOU** to all the people and entities that have helped with t
 3. [The Access Pacific Users Group](https://imaginethough.com/) - For their community help and support of Access and their contributions to testing this tool.
 
 4. [Geoffrey Griffith](https://imaginethough.com/) - For his work to create this 100% free Microsoft Access Add-In builder and tracking tool.
+
+
+
+## Other Free Microsoft Access Tools:
+Some other projects I've created in MS Access that I've also made available 100% FREE:
+
+1. [Access Database Property Editor Add-In](https://github.com/Access-Abraxas/Access-Database-Property-Editor-Addin)
+
+2. [Remove VBA Line Numbers Add-In](https://github.com/Access-Abraxas/Remove-VBA-Line-Numbers-Addin)
+
+3. [Win32 API Declarations for VBA](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA) 

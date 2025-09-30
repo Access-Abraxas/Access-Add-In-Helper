@@ -57,13 +57,13 @@ To use this program:
 ## Project Contributors
 A great big **THANK YOU** to all the people and entities that have helped with this project:
 
-1. [George Hepworth](https://imaginethough.com/) - For hosting the Access Pacific Users Group and inspiring this tool.
+1. [George Hepworth](https://imaginethought.com/) - For hosting the Access Pacific Users Group and inspiring this tool.
 
-2. [Crystal Long](https://imaginethough.com/) - For her contributions to the Access Pacific Users Group and the information she documented about creating Microsoft Access Add-Ins.
+2. [Crystal Long](https://imaginethought.com/) - For her contributions to the Access Pacific Users Group and the information she documented about creating Microsoft Access Add-Ins.
 
-3. [The Access Pacific Users Group](https://imaginethough.com/) - For their community help and support of Access and their contributions to testing this tool.
+3. [The Access Pacific Users Group](https://imaginethought.com/) - For their community help and support of Access and their contributions to testing this tool.
 
-4. [Geoffrey Griffith](https://imaginethough.com/) - For his work to create this 100% free Microsoft Access Add-In builder and tracking tool.
+4. [Geoffrey Griffith](https://imaginethought.com/) - For his work to create this 100% free Microsoft Access Add-In builder and tracking tool.
 
 
 
